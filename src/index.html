@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-    <header class="flex justify-between items-center w-[90%] m-auto p-[15px]">
+    <header class="flex justify-between items-center sm:w-[90%] m-auto p-[23px]">
 <img src="./Logo (5).png" alt="">
-<div class="flex ">
+<div class="flex hidden sm:flex ">
     <div class="border-r-[2px] border-solid border-gray-400 px-[15px]">
         <p class="text-gray-500">ВРЕМЯ РАБОТЫ </p>
     <p class="font-bold">Пн-Вс 9:00-21:00 </p>
@@ -28,5 +28,23 @@
     </div>
 </div>
     </header>
+
+    <nav class="flex my-[50px] w-[90%] m-auto justify-evenly ">
+<div class="sm:w-[40%]">
+    <h1 class="font-bold text-4xl my-[20px]">Поможем
+        навести порядок
+        в компании</h1>
+        <h3 class="text-2xl my-[10px]">Внедрение CRM за 2 недели.
+            Работаем по всей России.</h3>
+            <div class="gap-[10px] my-[20px] sm:flex">
+                <input type="text" class="border-[2px] border-solid rounded-md border-black w-[340px] py-[7px] my-[10px] sm:w-[300px]" placeholder=" Название компании" >
+                <input type="text" class="border-[2px] border-solid rounded-md border-black w-[340px] py-[7px]  my-[10px] sm:w-[300px]" placeholder=" Телефон*" >
+            </div>
+            <button class="bg-blue-500 py-[10px] rounded-md sm:py-[15px] px-[25px] sm: my-[20px]">
+                <h3 class="text-[20px] text-white">ЗАКАЗАТЬ БЕСПЛАТНУЮ
+                    КОНСУЛЬТАЦИЮ</h3>
+            </button>
+</div>
+
 </body>
 </html>
